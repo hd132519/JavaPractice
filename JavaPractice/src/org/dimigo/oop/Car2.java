@@ -7,20 +7,12 @@ public class Car2 {
 	public int maxSpeed;
 	public int price;
 	
-	public Car2(String company, String model, String color, int maxSpeed, int price){
-		this.company = company;
-		this.model = model;
-		this.color = color;
-		this.maxSpeed = maxSpeed;
-		this.price = price;
-	}
-	
-	public Car2(String company, String model, String color, int maxSpeed){
-		this(company, model, color, maxSpeed, 0);
-	}
-	
-	public Car2(String company, String model, String color){
-		this(company, model, color, 0);
+	public Car2(String newCompany, String newModel, String newColor, int newMaxSpeed, int newPrice){
+		company = newCompany;
+		model = newModel;
+		color = newColor;
+		maxSpeed = newMaxSpeed;
+		price = newPrice;
 	}
 
 
